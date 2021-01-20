@@ -38,46 +38,6 @@
 // import goodbye from "./goodbye.js"
 // goodbye();
 
-// var dayso = [2,9,4,5,7,3,11,13,14,15,19];
-// console.log ('Dãy số là:', dayso);
-// var i = 2;
-// var SNT = dayso.filter(function (num){
-//     if (num % 2 !== 0) {
-//         return num;
-//     }
-// })
-// console.log ('Số nguyên tố là: ', SNT);
-
-// var flag = true;
-// function KTSNT(n)
-// {
-//     if (n < 2) {
-//         flag = false;
-//     }
-//     else {
-//         for (var i = 2; i < n-1; i++)
-//         {
-//             if (n % i == 0){
-//                 flag = false;
-//                 break;
-//             }
-//         }
-//     }
-// }
-// var arr = [];
-// var x1 = prompt ('Nhập số thứ 1');
-// var x2 = prompt ('Nhập số thứ 2');
-// var x3 = prompt ('Nhập số thứ 3');
-// arr.push(x1);
-// arr.push(x2);
-// arr.push(x3);
-// var SNT = arr.filter (function(n) {
-//     if (flag == true) {
-//         return n;
-//     }
-// });
-// console.log ('Các số nguyên tố là: ', SNT);
-
 //Bài tập: Nhập từ bàn phím 1 dãy số, mỗi số cách nhau bởi dấu ",". Tìm và in ra những số nguyên tố có trong dãy số đó
     //VD: Input: 2, 9, 4, 5, 7
     //Output: 2, 5, 7
